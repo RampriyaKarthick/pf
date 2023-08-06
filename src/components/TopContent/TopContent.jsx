@@ -20,7 +20,7 @@ function TopContent() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
-    }, 2000); // Change role every 3 seconds
+    }, 2000); 
 
     return () => clearInterval(interval);
   }, []);
