@@ -1,35 +1,33 @@
+// Projects.js
 import React, { useState } from 'react';
-import "./Projects.css"
+import './Projects.css';
 
-function Projects({img, title, desc, link}) {
-    const [show, setShow] = useState(false);
+function Projects({ img, title, desc, link }) {
+  const [hovered, setHovered] = useState(false);
 
-    const handleMouseEnter = () => {
-        setShow(true);
-    };
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
 
-    const handleMouseLeave = () => {
-        setShow(false);
-    };
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
 
-    return (
-        <a href={link}>
-            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-              {
-                show? (
-                    <div>
-                        <h4>
-                           {title}
-                        </h4>
-                        <p>{desc}</p>
-                    </div>
-                ):(
-                    <img src={img} alt="" />
-                )
-              } 
-            </div>
-        </a>
-    );
+  return (
+    <a href={link} className="project-link">
+      <div
+        className={`project-card ${hovered ? 'hovered' : ''}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <img src={img} alt="" className="project-image" />
+        <div className="project-details">
+          <h4>{title}</h4>
+          {hovered && <p>{desc}</p>}
+        </div>
+      </div>
+    </a>
+  );
 }
 
 export default Projects;
