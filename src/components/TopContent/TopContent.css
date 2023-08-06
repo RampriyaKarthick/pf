@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500;600&display=swap");
+.topContent {
+  color: #ba59bc;
+   position: relative;
+}
+.topContent__container {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+}
+
+.topContent__container > p {
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 2px;
+  padding-top: 20px;
+}
+
+.topContent__container > a > button {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 5px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.topContent__container> h1 {
+    font-size:50px;
+    font-family:"Montserrat", sans-serif;
+}
+
+.topContent__downloadButton{
+    color:#6b874c;
+    background-color: #bae1aa;
+    font-size:14px;
+    padding:10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor:pointer;
+    margin-right:20px;
+    border-radius:2px;
+    
+}
+
+.topContent__downloadButton:hover{
+    color:#f64c08;
+    background-color:yellowgreen;
+    font-weight:800px;
+
+}
+
+.topContent__workButton{
+    color:#6b874c;
+    border:1px solid #6b874c !important;
+    background-color:transparent;
+    font-size:14px;
+    padding:9px 45px;
+    font-family:"Montesserrat", sans-serif;
+    font-weight:600;
+    cursor:pointed;
+}
+
+.topContent__workButton:hover{
+    color:#f64c08;
+    background-color: yellowgreen;
+    font-weight:800px
+}
+
