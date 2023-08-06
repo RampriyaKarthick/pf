@@ -1,90 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500;600&display=swap");
 
-.skillContainer{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin:200px 0;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5)
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
-.skillContainer__text{
-    color:#edceee;
-    flex:0.6;
-    text-align:left;
-    max-width:500px;
-    margin-bottom:20px;
+.skillContainer__text {
+  color: #edceee;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.skillContainer__text >h2 {
-    font-size:30px;
+.skillContainer__text > h2 {
+  font-size: 30px;
 }
 
-.skillContainer__image{
-    flex:0.4;
-    text-align:center;
-    margin:150px 50px;
+.skillContainer__image {
+  text-align: center;
+  margin: 30px 0;
 }
 
 .skillContainer__image > img {
-    width: 500px;
-    border-radius:3px;
-    object-fit:contain;
+  max-width: 100%;
+  border-radius: 3px;
 }
 
-
-.skillContainer__skillSet > h5{
-    font-family:"Montserrat", sans-serif;
-    font-weight:300;
-    padding-top: 3px;
-    padding-bottom:20px;
+.skillContainer__skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.skillContainer__slider > .css-eglki6-MuiLinearProgress-root {
-    background-color: rgb(64, 62, 60);
+.skillContainer__skillSet {
+  text-align: center;
 }
-.skillContainer__slider1 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: tomato;
-  }
 
-  .skillContainer__slider2>span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color:rgb(128, 247, 128);
-  }
+/* Media queries for responsiveness */
 
-  .skillContainer__slider3 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: rgb(201, 201, 73);
-  }
-
-  .skillContainer__slider4 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: orange;
-  }
-
-  .skillContainer__slider5 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: rgb(69, 69, 241);
-  }
-
-  .skillContainer__slider6>span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: tomato;
-  }
-
-  .skillContainer__slider7 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: rgb(128, 247, 128);
-  }
-
-  .skillContainer__slider8 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: rgb(201, 201, 73);
-  }
-
-  .skillContainer__slider9 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: orange;
-  }
-
-  .skillContainer__slider10 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: rgb(69, 69, 241);
-  }
-
-  .skillContainer__slider11 >span>  .css-5xe99f-MuiLinearProgress-bar1 {
-    background-color: tomato;
+@media (max-width: 768px) {
+  .skillContainer__text {
+    margin-top: 40px;
   }
   
+  .skillContainer__image {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillContainer__text > h2 {
+    font-size: 24px;
+  }
+
+  .skillContainer__skills {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+}

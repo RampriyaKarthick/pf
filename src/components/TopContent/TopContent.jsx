@@ -8,12 +8,12 @@ function TopContent() {
         <div className='topContent__container'>
         <h1>Rampriya Karthick</h1>
  <p> Full Stack Web Developer</p>
- <a href="www.google.com">
+ <a href="https://drive.google.com/file/d/1kYILm_hExRR_ScbluNWEk_hp-Lt5gBhh/view?usp=sharing">
     <button className="topContent__downloadButton">
         Download CV
     </button>
  </a>
- <Link to="projects" smooth={true} duration={500}>
+ <Link to="project" smooth={true} duration={500}>
     <button className="topContent__workButton">My work</button>
  </Link>
         </div>

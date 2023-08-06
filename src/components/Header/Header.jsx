@@ -19,15 +19,15 @@ function Header() {
 <Link to="project" smooth={true} duration={500}>
 <h4>Projects</h4>
 </Link>
-<Link to="experience" smooth={true} duration={500}>
+<Link to="expe" smooth={true} duration={500} offset={-100}>
 <h4>Experience</h4>
 </Link>
 <Link to="contact" smooth={true} duration={500}>
 <h4>Contacts</h4>
 </Link>
-<h4 className="header__rightButton">
+{/* <h4 className="header__rightButton">
     Join with me
-</h4>
+</h4> */}
 </div>
     </div>
   )
