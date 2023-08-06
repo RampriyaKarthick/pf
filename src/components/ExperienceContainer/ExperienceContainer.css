@@ -1,0 +1,13 @@
+.expe{
+color:#edceee;
+}
+.experienceContainer{
+    display:flex;
+    flex-direction:column;
+    color:#6b874c;
+    justify-content:center;
+    margin:200px 0;
+    align-items:center;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+}
+

@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import TopContainer from './components/TopContainer/TopContainer'
 import SkillContainer from './components/SkillContainer/SkillContainer'
 import ProjectContainer from './components/ProjectContainer/ProjectContainer'
+import ExperienceContainer from './components/ExperienceContainer/ExperienceContainer'
 import "./App.css"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
    <TopContainer/>
    <SkillContainer/>
    <ProjectContainer/>
+   <ExperienceContainer/>
     </div>
   )
 }

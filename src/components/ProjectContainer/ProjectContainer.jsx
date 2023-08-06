@@ -4,6 +4,7 @@ import Habitsu from "../../assets/Habitsu (4).png";
 import DealZone from "../../assets/Deal (2).png";
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
+import "./ProjectsContainer.css"
 
 function ProjectContainer() {
   const projects = [
@@ -31,8 +32,10 @@ function ProjectContainer() {
       <h1> Projects </h1>
       <p>
         {" "}
-        "Every great oak was once a little nut that stood its ground".Here are
-        some projects I have worked on. More projects are on the way!
+        Here are some projects I have worked on.
+        
+        "Every great oak was once a little nut that stood its ground".
+         More projects are on the way!
       </p>
       <div className="projectContainer__projects">
         {projects.map((project, index) => {
