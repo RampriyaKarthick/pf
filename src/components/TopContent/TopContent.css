@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500;600&display=swap");
 .topContent {
-  color: #ba59bc;
+  color: #ceb1cf;
    position: relative;
 }
 .topContent__container {
@@ -67,4 +67,30 @@
     background-color: yellowgreen;
     font-weight:800px
 }
+
+.topContent__profilePhotoContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  margin-bottom: 20px; 
+  position: relative;
+  top: -150px; 
+}
+
+.topContent__profilePhoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+.topContent__profilePhoto:hover {
+  transform: scale(1.1); 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
 
