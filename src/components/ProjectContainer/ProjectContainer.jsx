@@ -2,7 +2,7 @@ import React from "react";
 import HeroSnail from "../../assets/Snail Life.png";
 import Habitsu from "../../assets/Habitsu (4).png";
 import DealZone from "../../assets/Deal (2).png";
-import rud from "../../assets/rud.png"
+import rug from "../../assets/rug.png"
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
 import "./ProjectsContainer.css"
@@ -28,9 +28,9 @@ function ProjectContainer() {
       link: "https://dealzon.netlify.app/",
     },
     {
-      img: rud,
+      img: rug,
       title: "RandomUserGenerator",
-      desc: "Full-stack react ecommerce website with a game-changing twist: a price negotiation feature! ",
+      desc: "A simple frontend react website that generates random user ",
       link: "https://fantastic-sprite-f6dde3.netlify.app/",
     },
   ];
