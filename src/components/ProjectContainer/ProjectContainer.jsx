@@ -2,7 +2,11 @@ import React from "react";
 import HeroSnail from "../../assets/Snail Life.png";
 import Habitsu from "../../assets/Habitsu (4).png";
 import DealZone from "../../assets/Deal (2).png";
-import rug from "../../assets/rug.png"
+import rug from "../../assets/rug.png";
+import logo from "../../assets/logo.png";
+import snake from "../../assets/snake.jpeg";
+import booki from "../../assets/booki.png";
+import menucard from "../../assets/menucard.jpeg"
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
 import "./ProjectsContainer.css"
@@ -31,6 +35,30 @@ function ProjectContainer() {
       img: rug,
       title: "RandomUserGenerator",
       desc: "A simple frontend react website that generates random user ",
+      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+    },
+    {
+      img:menucard,
+      title: "Menu Card",
+      desc: "A simple practice menucard design using html and css which is fully responsive",
+      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+    },
+    {
+      img: logo,
+      title: "Bob_Photograpgy",
+      desc: "A simple practice portfolio design using html and css which is fully responsive",
+      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+    },
+    {
+      img: booki,
+      title: "Booki",
+      desc: "A simple practice booking app design using html and css which is fully responsive designed as part of the project during my training in openclassrooms",
+      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+    },
+    {
+      img: snake,
+      title: "SnakeGame",
+      desc: "Game that always makes us feel Nostalgic",
       link: "https://fantastic-sprite-f6dde3.netlify.app/",
     },
   ];
