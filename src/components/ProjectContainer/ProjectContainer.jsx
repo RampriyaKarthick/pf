@@ -41,25 +41,25 @@ function ProjectContainer() {
       img:menucard,
       title: "Menu Card",
       desc: "A simple practice menucard design using html and css which is fully responsive",
-      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+      link: "https://gorgeous-kulfi-2b5e1c.netlify.app/",
     },
     {
       img: logo,
       title: "Bob_Photograpgy",
       desc: "A simple practice portfolio design using html and css which is fully responsive",
-      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+      link: "https://darling-starlight-fa682d.netlify.app/",
     },
     {
       img: booki,
       title: "Booki",
       desc: "A simple practice booking app design using html and css which is fully responsive designed as part of the project during my training in openclassrooms",
-      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+      link: "https://bookinnn.netlify.app/",
     },
     {
       img: snake,
       title: "SnakeGame",
       desc: "Game that always makes us feel Nostalgic",
-      link: "https://fantastic-sprite-f6dde3.netlify.app/",
+      link: "https://rampriyakarthick.github.io/snakegame/",
     },
   ];
   return (
