@@ -94,3 +94,15 @@
 }
 
 
+
+@media all and (max-width: 768px) {
+ 
+
+  .topContent__container{
+    top:30px;
+    left:30px;
+  }
+.topContent__profilePhotoContainer img{
+display: none;
+}
+}
