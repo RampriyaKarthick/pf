@@ -11,6 +11,7 @@ import menucard from "../../assets/menucard.jpeg"
 import Sophie from "../../assets/Sophie-bluel.png"
 import nina from "../../assets/nina.png"
 import grimoire from "../../assets/grimoire.jpeg"
+import maisonjungle from "../../assets/maisonjungle.png"
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
 import "./ProjectsContainer.css"
@@ -47,6 +48,12 @@ function ProjectContainer() {
       title: "Booki",
       desc: "A simple practice booking app design using html and css which is fully responsive designed as part of the project during my training in openclassrooms",
       link: "https://bookinnn.netlify.app/",
+    },
+    {
+      img:maisonjungle,
+      title: "La_Maison_Jungle",
+      desc: "A practice react ecommerce app for buying plants",
+      link: "https://github.com/RampriyaKarthick/La-Maison-Jungle",
     },
     {
       img: HeroSnail,
