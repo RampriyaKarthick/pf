@@ -14,6 +14,37 @@ import "./ProjectsContainer.css"
 function ProjectContainer() {
   const projects = [
     {
+      img: booki,
+      title: "Livre App",
+      desc: "An app to share reviews, create ,update, read and update books",
+      link: "https://github.com/RampriyaKarthick/P7-backend",
+    },
+    {
+      img: booki,
+      title: "Kasa",
+      desc: "A react design app for immobiliere to find the logements",
+      link: "https://github.com/RampriyaKarthick/Kasa",
+    },
+    {
+      img: booki,
+      title: "NinaCarducci",
+      desc: "A practice app for SEO tools",
+      link: "https://github.com/RampriyaKarthick/Ninacarducci",
+    },
+    {
+      img: booki,
+      title: "Portfolio Architecte Sophie-bluel",
+      desc: "A project to practice javascript skills during my training in openclassrooms",
+      link: "https://github.com/RampriyaKarthick/Portfolio-architecte-sophie-bluel",
+    },
+
+    {
+      img: booki,
+      title: "Booki",
+      desc: "A simple practice booking app design using html and css which is fully responsive designed as part of the project during my training in openclassrooms",
+      link: "https://bookinnn.netlify.app/",
+    },
+    {
       img: HeroSnail,
       title: "Snail_Life",
       desc: "I've built my very own game called Snail_Life!.",
@@ -49,12 +80,7 @@ function ProjectContainer() {
       desc: "A simple practice portfolio design using html and css which is fully responsive",
       link: "https://darling-starlight-fa682d.netlify.app/",
     },
-    {
-      img: booki,
-      title: "Booki",
-      desc: "A simple practice booking app design using html and css which is fully responsive designed as part of the project during my training in openclassrooms",
-      link: "https://bookinnn.netlify.app/",
-    },
+   
     {
       img: snake,
       title: "SnakeGame",
