@@ -6,7 +6,11 @@ import rug from "../../assets/rug.png";
 import logo from "../../assets/logo.png";
 import snake from "../../assets/snake.jpeg";
 import booki from "../../assets/booki.png";
+import kasa from "../../assets/kasa.png"
 import menucard from "../../assets/menucard.jpeg"
+import Sophie from "../../assets/Sophie-bluel.png"
+import nina from "../../assets/nina.png"
+import grimoire from "../../assets/grimoire.jpeg"
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
 import "./ProjectsContainer.css"
@@ -14,25 +18,25 @@ import "./ProjectsContainer.css"
 function ProjectContainer() {
   const projects = [
     {
-      img: booki,
-      title: "Livre App",
+      img:grimoire,
+      title: "Mon Vieux Grimoire",
       desc: "An app to share reviews, create ,update, read and update books",
       link: "https://github.com/RampriyaKarthick/P7-backend",
     },
     {
-      img: booki,
+      img:kasa,
       title: "Kasa",
       desc: "A react design app for immobiliere to find the logements",
       link: "https://github.com/RampriyaKarthick/Kasa",
     },
     {
-      img: booki,
+      img:nina,
       title: "NinaCarducci",
       desc: "A practice app for SEO tools",
       link: "https://github.com/RampriyaKarthick/Ninacarducci",
     },
     {
-      img: booki,
+      img:Sophie,
       title: "Portfolio Architecte Sophie-bluel",
       desc: "A project to practice javascript skills during my training in openclassrooms",
       link: "https://github.com/RampriyaKarthick/Portfolio-architecte-sophie-bluel",
