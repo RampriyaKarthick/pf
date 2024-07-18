@@ -55,6 +55,24 @@ function SkillContainer() {
         </div>
        </div>
        <div className="skillContainer__skillSet">
+        <h5>SEO</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={70} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>Agile</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={80} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>SASS</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={80} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
         <h5>Bootstrap</h5>
         <div className="skillContainer__slider skillContainer__slider8">
             <LinearProgress variant="determinate" value={60} />
@@ -67,7 +85,7 @@ function SkillContainer() {
         </div>
        </div>
        <div className="skillContainer__skillSet">
-        <h5>Creative design using canva</h5>
+        <h5>Canva</h5>
         <div className="skillContainer__slider skillContainer__slider10">
             <LinearProgress variant="determinate" value={70} />
         </div>
