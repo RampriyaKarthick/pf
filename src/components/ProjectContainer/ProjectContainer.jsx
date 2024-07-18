@@ -11,6 +11,7 @@ import menucard from "../../assets/menucard.jpeg"
 import Sophie from "../../assets/Sophie-bluel.png"
 import nina from "../../assets/nina.png"
 import grimoire from "../../assets/grimoire.jpeg"
+import qwenta from "../../assets/qwenta.jpeg"
 import maisonjungle from "../../assets/maisonjungle.png"
 import { Element } from "react-scroll";
 import Projects from "../Projects/Projects";
@@ -19,21 +20,27 @@ import "./ProjectsContainer.css"
 function ProjectContainer() {
   const projects = [
     {
+      img:qwenta,
+      title: "Qwenta",
+      desc: "A project that facilitates in planning a website development for client - OpenclassRoom",
+      link: "https://gold-milkshake-ab5.notion.site/Qwenta-Menu-maker-1b38f975662b4f258e21a24ce5f2c44f",
+    },
+    {
       img:grimoire,
       title: "Mon Vieux Grimoire",
-      desc: "An app to share reviews, create ,update, read and update books",
+      desc: "An app to share reviews, create ,update, read and update books -OpenclassRoom",
       link: "https://github.com/RampriyaKarthick/P7-backend",
     },
     {
       img:kasa,
       title: "Kasa",
-      desc: "A react design app for immobiliere to find the logements",
+      desc: "A react design app for immobiliere to find the logements-OpenclassRoom",
       link: "https://github.com/RampriyaKarthick/Kasa",
     },
     {
       img:nina,
       title: "NinaCarducci",
-      desc: "A practice app for SEO tools",
+      desc: "A practice app for SEO tools- OpenclassRoom",
       link: "https://github.com/RampriyaKarthick/Ninacarducci",
     },
     {

@@ -32,7 +32,7 @@ function TopContent() {
         </div>
         <h1>Rampriya Karthick</h1>
         <p>{roles[currentRoleIndex]}</p>
-        <a href="https://drive.google.com/file/d/1uHSOB5Tng1anIEOvi7DsRLd_UIYCBD-m/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1ey6mdVLwL1bnirTuJHM-C-rmNFlxP8rA/view?usp=sharing">
           <button className="topContent__downloadButton">
             Download CV
           </button>

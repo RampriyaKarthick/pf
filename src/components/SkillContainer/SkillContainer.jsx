@@ -60,12 +60,7 @@ function SkillContainer() {
             <LinearProgress variant="determinate" value={70} />
         </div>
        </div>
-       <div className="skillContainer__skillSet">
-        <h5>Agile</h5>
-        <div className="skillContainer__slider skillContainer__slider3">
-            <LinearProgress variant="determinate" value={80} />
-        </div>
-       </div>
+       
        <div className="skillContainer__skillSet">
         <h5>SASS</h5>
         <div className="skillContainer__slider skillContainer__slider3">
@@ -94,6 +89,36 @@ function SkillContainer() {
         <h5>GitHub</h5>
         <div className="skillContainer__slider skillContainer__slider11">
             <LinearProgress variant="determinate" value={80} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>Agile</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={80} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>TypeScript</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={25} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>Communication</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={100} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>Collobaration</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={100} />
+        </div>
+       </div>
+       <div className="skillContainer__skillSet">
+        <h5>Flexibility</h5>
+        <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant="determinate" value={100} />
         </div>
        </div>
    </div>
