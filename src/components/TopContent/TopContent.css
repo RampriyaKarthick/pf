@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;500;600&display=swap");
 .topContent {
-  color: #ceb1cf;
+  color: #EECEB9;
    position: relative;
 }
 .topContent__container {
@@ -9,6 +9,7 @@
   top: 300px;
   right: 60px;
 }
+
 
 .topContent__container > p {
   letter-spacing: 1px;
@@ -33,7 +34,7 @@
 
 .topContent__downloadButton{
     color:#6b874c;
-    background-color: #bae1aa;
+    background-color: #FEFBD8;
     font-size:14px;
     padding:10px 30px;
     font-family: "Montserrat", sans-serif;
@@ -44,9 +45,9 @@
     
 }
 
-.topContent__downloadButton:hover{
-    color:#f64c08;
-    background-color:yellowgreen;
+.topContent__downloadButton:hover,.topContent__workButton:hover {
+    color:#f1ecea;
+    background-color:#BB9AB1;
     font-weight:800px;
 
 }
@@ -54,7 +55,7 @@
 .topContent__workButton{
     color:#6b874c;
     border:1px solid #6b874c !important;
-    background-color:transparent;
+    background-color: #FEFBD8;
     font-size:14px;
     padding:9px 45px;
     font-family:"Montesserrat", sans-serif;
@@ -62,11 +63,6 @@
     cursor:pointed;
 }
 
-.topContent__workButton:hover{
-    color:#f64c08;
-    background-color: yellowgreen;
-    font-weight:800px
-}
 
 .topContent__profilePhotoContainer {
   display: flex;
@@ -104,5 +100,12 @@
   }
 .topContent__profilePhotoContainer img{
 display: none;
+}
+.xxx{
+  margin:150px 0;
+}
+
+.topContent__container >p {
+  padding-top:0px;
 }
 }

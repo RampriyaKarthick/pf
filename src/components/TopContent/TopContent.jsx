@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-scroll';
-import ProfilePhoto from "../../assets/profile.jpg";
+
 import "./TopContent.css";
 
 const roles = [
@@ -27,11 +27,10 @@ function TopContent() {
   return (
     <div className="topContent">
       <div className='topContent__container'>
-        <div className="topContent__profilePhotoContainer">
-          <img src={ProfilePhoto} alt="Profile" className="topContent__profilePhoto" />
-        </div>
+        
         <h1>Rampriya Karthick</h1>
         <p>{roles[currentRoleIndex]}</p>
+        <div className="xxx">
         <a href="https://drive.google.com/file/d/1ey6mdVLwL1bnirTuJHM-C-rmNFlxP8rA/view?usp=sharing">
           <button className="topContent__downloadButton">
             Download CV
@@ -40,6 +39,7 @@ function TopContent() {
         <Link to="project" smooth={true} duration={500}>
           <button className="topContent__workButton">My work</button>
         </Link>
+        </div>
       </div>
     </div>
   );
